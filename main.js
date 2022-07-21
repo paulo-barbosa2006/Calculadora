@@ -13,8 +13,8 @@ function calcular(){
         area.innerHTML = ''
         while (contador <= 10){
             let item = document.createElement('option')
-            item.text = `${num} x $
-            {contador} = ${num*contador}`
+            item.text = `${num} x
+            ${contador} = ${num*contador}`
             item.value = `tab${contador}`
             area.appendChild(item)
             contador++
